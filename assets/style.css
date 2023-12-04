@@ -1,0 +1,326 @@
+h2 {
+    color: #ff00b1;
+    text-transform: uppercase;
+}
+
+section {
+    margin-bottom: 160px;
+}
+
+.item {
+    padding: 40px;
+    background-color: #a856e7;
+    border: solid 1px black;
+    color: white;
+}
+
+.container-flex {
+    display: flex;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-inline-flex {
+    display: inline-flex;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row {
+    display: flex;
+    flex-direction: row;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-inline-flex-rr {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.container-flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-column-r {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-inlineflex-column {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-inlineflex-columnreverse {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.itemb {
+    padding: 40px 80px;
+    background-color: #a856e7;
+    border: solid 1px black;
+    color: white;
+}
+
+.container-flex-row-nowrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-wrapr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-wrap-jcstart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-wrap-jccenter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-wrap-jcend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+
+.container-flex-row-wrap-jcbetween {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-wrap-jcaround {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.container-flex-row-wrap-jcevenly {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+}
+
+.item-alto {
+    height: 120px;
+    background-color: #dd56e6;
+}
+
+.container-flex-row-wrap-jccenter-start {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    
+}
+
+.container-flex-row-wrap-jccenter-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    
+}
+
+.container-flex-row-wrap-jccenter-end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    
+}
+
+.container-flex-row-wrap-jccenter-stretch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    
+}
+
+.container-flex-row-wrap-jccenter-baseline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    
+}
+
+.full {
+    height: 100vh;
+    background-color: #dedede;
+    padding: 100px 3%;
+}
+
+.container-flex-row-wrap-jccenter-center-acstart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: flex-start;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    min-height: 40vh;
+}
+
+.container-flex-row-wrap-jccenter-center-accenter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    height: 40vh;
+}
+
+.container-flex-row-wrap-jccenter-center-acend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    height: 40vh;
+}
+
+.container-flex-row-wrap-jccenter-center-acstretch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    height: 40vh;
+}
+
+.container-flex-row-wrap-jccenter-center-acsb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    height: 40vh;
+}
+
+.container-flex-row-wrap-jccenter-center-acsa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    height: 40vh;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
+
+
+.container-flex-row-wrap-jccenter-center-acstart2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #b0c8ed;
+    margin-bottom: 20px;
+    min-height: 40vh;
+}
+
+
+.self {
+    display: flex;
+    align-self: flex-start;
+}

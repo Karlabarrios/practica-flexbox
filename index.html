@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <meta name="description" content="Flexbox">
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <h1>FLEXBOX</h1>
+    <section>
+        <h2>ACTIVAR FLEXBOX</h2>
+
+        <h3>DISPLAY FLEX</h3>
+        <div class="container-flex"> <!-- Flex container -->
+            <div class="item item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit rem exercitationem, molestiae necessitatibus tempora ex ullam ea consequuntur, ad magnam ratione dolore in magni optio ut cum eius nemo.</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quasi perspiciatis hic fugit ea quia dicta deserunt enim veritatis quis corporis sequi ipsum eaque possimus et ex expedita laudantium provident?</div>
+        </div>
+        <div class="container-flex"> <!-- Flex container -->
+            <div class="item item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolore deserunt aspernatur eaque ipsum, id consequatur veniam optio architecto nulla pariatur ad soluta quasi quia enim ipsam sequi natus tempora?</div> <!-- Flex items -->
+            <div class="item item-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo iure nobis consectetur reiciendis minus explicabo ipsa repudiandae odit saepe adipisci omnis culpa beatae, molestias obcaecati quidem soluta fuga animi commodi?</div>
+            <div class="item item-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, delectus vel, earum corporis non amet numquam facere doloremque voluptatum nemo repellendus. Assumenda, ducimus tenetur nulla obcaecati eaque provident fugit illo.</div>
+        </div>
+
+        <h3>DISPLAY INLINE-FEX</h3>
+        <div class="container-inline-flex">
+            <div class="item item-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate facere labore nobis voluptates magni, repellendus nam. Sed recusandae possimus voluptate, accusamus quis, animi harum vitae deserunt quos alias provident fugiat!</div> 
+            <div class="item item-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quod numquam quibusdam consequuntur voluptatibus expedita, quam amet sequi qui neque dolor, ullam officia modi reprehenderit? Minima ex ducimus consectetur maxime?</div>
+            <div class="item item-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, mollitia hic? Eos porro provident eveniet ullam similique quasi repellat maiores nisi voluptatibus libero, ut fugit a enim totam sed explicabo!</div>
+        </div>
+        <div class="container-inline-flex">
+            <div class="item item-1">1</div> 
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        <div class="container-inline-flex">
+            <div class="item item-1">1</div> 
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Flex-direction</h2>
+
+        <h3>row</h3>
+        <div class="container-flex-row">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+
+        <h3>row-reverse</h3>
+        <div class="container-flex-row-reverse">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+
+        <h3>DISPLAY INLINE-FEX row-reverse</h3>
+        <div class="container-inline-flex-rr">
+            <div class="item item-1">1</div> 
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        <div class="container-inline-flex-rr">
+            <div class="item item-1">1</div> 
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        <div class="container-inline-flex-rr">
+            <div class="item item-1">1</div> 
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+
+        <h3>DISPLAY FEX column</h3>
+        <div class="container-flex-column">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+
+        <h3>DISPLAY FEX column-reverse</h3>
+        <div class="container-flex-column-r">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+
+        
+
+        <h3>DISPLAY INLINE-FEX column</h3>
+        <div class="container-inlineflex-column">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        <div class="container-inlineflex-column">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        <div class="container-inlineflex-column">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+
+
+        <h3>DISPLAY INLINE-FEX column-reverse</h3>
+        <div class="container-inlineflex-columnreverse">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        <div class="container-inlineflex-columnreverse">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        <div class="container-inlineflex-columnreverse">
+            <div class="item item-1">1</div> <!-- Flex items -->
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+        </div>
+        
+
+
+    </section>
+
+
+
+    <section>
+        <h2>Flex-wrap</h2>
+
+        <h3>row nowrap</h3>
+        <div class="container-flex-row-nowrap">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+
+        <h3>row wrap</h3>
+        <div class="container-flex-row-wrap">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+
+        <h3>wrap-reverse</h3>
+        <div class="container-flex-row-wrapr">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Justify-content</h2>
+
+        <h3>row wrap flex-start</h3>
+        <div class="container-flex-row-wrap-jcstart">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+
+        <h3>row wrap center</h3>
+        <div class="container-flex-row-wrap-jccenter">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+
+        <h3>row wrap flex-end</h3>
+        <div class="container-flex-row-wrap-jcend">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+
+        <h3>row wrap space-between</h3>
+        <div class="container-flex-row-wrap-jcbetween">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+
+        <h3>row wrap space-around</h3>
+        <div class="container-flex-row-wrap-jcaround">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+
+        <h3>row wrap space-evenly</h3>
+        <div class="container-flex-row-wrap-jcevenly">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+        </div>
+    </section>
+
+
+    
+    <section>
+        <h2>Align-ítems</h2>
+
+        <h3>row wrap align-flex-start</h3>
+        <div class="container-flex-row-wrap-jccenter-start">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb item-alto">3</div>
+            <div class="itemb">4</div>
+        </div>
+
+        <h3>row wrap align-flex-center</h3>
+        <div class="container-flex-row-wrap-jccenter-center">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb item-alto">3</div>
+            <div class="itemb">4</div>
+        </div>
+
+        <h3>row wrap align-flex-end</h3>
+        <div class="container-flex-row-wrap-jccenter-end">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb item-alto">3</div>
+            <div class="itemb">4</div>
+        </div>
+
+        <h3>row wrap align-flex-stretch</h3>
+        <div class="container-flex-row-wrap-jccenter-stretch">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb item-alto">3</div>
+            <div class="itemb">4</div>
+        </div>
+
+        <h3>row wrap align-flex-baseline</h3>
+        <div class="container-flex-row-wrap-jccenter-baseline">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb item-alto">3</div>
+            <div class="itemb" style="padding-top: 80px">4</div>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>align-content</h2>
+
+        <h3>align-content flex-start</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acstart">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+        <h3>align-content center</h3>
+        <div class="container-flex-row-wrap-jccenter-center-accenter">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+        <h3>align-content flex-end</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acend">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+        <h3>align-content stretch</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acstretch">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+        <h3>align-content space between</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acsb">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+        <h3>align-content space around</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acsa">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+
+    </section>
+
+
+    
+
+    <section>
+        <h2>items</h2>
+
+        <h3>order</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acstart">
+            <div class="itemb">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+        <h3>order</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acstart">
+            <div class="itemb order-8">1</div> 
+            <div class="itemb">2</div>
+            <div class="itemb">3</div>
+            <div class="itemb">4</div>
+            <div class="itemb">5</div> 
+            <div class="itemb">6</div>
+            <div class="itemb">7</div>
+            <div class="itemb">8</div>
+        </div>
+
+        
+
+        <h3>Flex-grow</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acstart">
+            <div class="itemb grow-1">1</div> 
+            <div class="itemb grow-2">2</div>
+            <div class="itemb grow-1">3</div>
+            <div class="itemb grow-1">4</div>
+        </div>
+
+        
+
+        <h3>align-self</h3>
+        <div class="container-flex-row-wrap-jccenter-center-acstart2">
+            <div class="itemb grow-1">1</div> 
+            <div class="itemb grow-2">2</div>
+            <div class="itemb grow-1 self">3</div>
+            <div class="itemb grow-1">4</div>
+        </div>
+
+
+
+    </section>
+
+</body>
+
+</html>
